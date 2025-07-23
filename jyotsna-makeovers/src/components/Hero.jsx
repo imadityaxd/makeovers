@@ -3,17 +3,29 @@ export default function Hero() {
     <section
       id="home"
       className="relative h-screen flex flex-col justify-center items-center text-center px-4 text-white"
-      style={{ backgroundImage: "url('/images/bg-image.jpeg')", backgroundSize: 'cover', backgroundPosition: 'center' }}
+      style={{
+        backgroundImage: "url('/images/bg-image.jpeg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
     >
       {/* Pink overlay */}
       <div className="absolute inset-0 bg-pink-200 bg-opacity-30 mix-blend-multiply"></div>
 
       {/* Content */}
       <div className="relative z-10">
-        <h1 className="text-5xl md:text-6xl font-bold mb-4">
+        <h1
+          className="text-5xl md:text-6xl font-bold mb-4"
+          style={{
+            textShadow: '1px 1px 1px rgba(14, 13, 13, 0.9)', // baby pink, sharp edge
+          }}
+        >
           Jyotsna Makeovers
         </h1>
-        <p className="text-lg md:text-xl mb-6 max-w-2xl mx-auto">
+        <p
+          className="text-lg md:text-xl mb-6 max-w-2xl mx-auto"
+          
+        >
           Enhancing beauty with a touch of elegance. Professional bridal and party makeup artist based in Lucknow.
         </p>
         <a
