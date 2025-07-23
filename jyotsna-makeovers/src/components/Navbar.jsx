@@ -6,7 +6,9 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-pink-200 shadow-md px-4 py-3">
       <div className="flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-pink-800 tracking-wide">Jyotsna Makeovers</h1>
+        <a 
+        href = "https://jyotsnamakeovers.netlify.app/"
+        className="text-2xl font-bold text-pink-800 tracking-wide">Jyotsna Makeovers</a>
 
         {/* Hamburger menu (mobile) */}
         <button
